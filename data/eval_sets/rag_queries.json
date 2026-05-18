@@ -1,0 +1,14 @@
+[
+  {
+    "query": "How much home office stipend can remote developers claim?",
+    "expected_keywords": ["$500", "stipend", "remote", "allowance"]
+  },
+  {
+    "query": "Do you offer refunds for individual subscription purchases?",
+    "expected_keywords": ["30-day", "refund", "guarantee", "individual"]
+  },
+  {
+    "query": "When was software version 3.4.0 released and what features were added?",
+    "expected_keywords": ["May 15, 2026", "MCP", "3.4.0", "Release"]
+  }
+]

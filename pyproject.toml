@@ -1,0 +1,35 @@
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q --tb=short"
+testpaths = [
+    "setup",
+    "shared",
+    "00_pre_assessment",
+    "01_foundations",
+    "02_agent_loop",
+    "03_tools_structured_outputs_mcp",
+    "04_memory_rag_context",
+    "05_eval_basics",
+    "06_design_patterns",
+    "07_multi_agent",
+    "08_advanced_eval_observability",
+    "09_production_security_enterprise",
+    "10_failure_modes",
+    "11_capstone"
+]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+asyncio_mode = "auto"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::UserWarning"
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "C90"]
+ignore = ["E501"]

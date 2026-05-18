@@ -1,0 +1,18 @@
+[
+  {
+    "input_text": "I was billed $49 instead of $19. Correct my bill.",
+    "expected_category": "billing"
+  },
+  {
+    "input_text": "My connection keeps failing on initialization with a 403 Forbidden.",
+    "expected_category": "tech_support"
+  },
+  {
+    "input_text": "Cancel my account and give me my money back immediately.",
+    "expected_category": "refund"
+  },
+  {
+    "input_text": "How do I upgrade to the corporate pricing plan?",
+    "expected_category": "billing"
+  }
+]

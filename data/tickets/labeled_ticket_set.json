@@ -1,0 +1,22 @@
+[
+  {
+    "ticket_id": "T-2001",
+    "body": "Can I get my money back? The software crashes and I want a full refund.",
+    "expected_category": "refund"
+  },
+  {
+    "ticket_id": "T-2002",
+    "body": "My integration keeps throwing a 500 server error on the API endpoint /v1/query.",
+    "expected_category": "tech_support"
+  },
+  {
+    "ticket_id": "T-2003",
+    "body": "When is my credit card next billed? I want to change the payment method.",
+    "expected_category": "billing"
+  },
+  {
+    "ticket_id": "T-2004",
+    "body": "I love your product! Do you have a feedback form or feature request board?",
+    "expected_category": "general"
+  }
+]

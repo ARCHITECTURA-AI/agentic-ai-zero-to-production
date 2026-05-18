@@ -1,0 +1,23 @@
+[
+  {
+    "id": "CASE-101",
+    "query": "I would like to get a refund for my unused ticket TKT-99123. It has been 10 days.",
+    "expected_category": "refund",
+    "gold_reference": "We will process a full refund for your ticket TKT-99123 within 30 days of purchase.",
+    "required_keywords": ["refund", "ticket", "TKT-99123"]
+  },
+  {
+    "id": "CASE-102",
+    "query": "My credit card was charged twice for order TKT-88421. Please review and correct this.",
+    "expected_category": "billing",
+    "gold_reference": "Double charge identified. We will reverse the secondary charge for ticket TKT-88421.",
+    "required_keywords": ["charge", "double", "billing", "TKT-88421"]
+  },
+  {
+    "id": "CASE-103",
+    "query": "Can you update my delivery address to 100 Main St for shipment SHP-551?",
+    "expected_category": "shipping",
+    "gold_reference": "We have updated your delivery address to 100 Main St for shipment SHP-551.",
+    "required_keywords": ["shipping", "address", "updated", "SHP-551"]
+  }
+]

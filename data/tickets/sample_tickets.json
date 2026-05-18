@@ -1,0 +1,23 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "customer_name": "Alice Green",
+    "subject": "Charged twice for subscription renewal",
+    "body": "Hi team, I looked at my bank statement and noticed I was billed twice on May 1st for my premium membership renewal. Please reverse the duplicate payment immediately. Thanks!",
+    "created_at": "2026-05-02T10:15:30Z"
+  },
+  {
+    "ticket_id": "T-1002",
+    "customer_name": "Bob Miller",
+    "subject": "SDK crashes with connection timeout on startup",
+    "body": "Hello, I am testing the new SDK in our enterprise sandbox. Whenever I execute client.initialize(), it hangs for 30 seconds and then throws a ConnectionTimeoutError. I am behind a corporate firewall. What variables do I need to configure?",
+    "created_at": "2026-05-02T11:22:45Z"
+  },
+  {
+    "ticket_id": "T-1003",
+    "customer_name": "Charlie Smith",
+    "subject": "Do you offer corporate training discounts?",
+    "body": "Hello support, I represent a team of 15 engineers who would love to attend your Zero-to-Production training course. Do you offer bulk discounts or corporate rate cards? Let us know. Best.",
+    "created_at": "2026-05-03T09:05:12Z"
+  }
+]
