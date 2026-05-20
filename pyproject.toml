@@ -1,3 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-ai-zero-to-production"
+version = "0.1.0"
+description = "Agentic AI - Zero to Production Course Shared Package"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["shared"]
+
 [tool.pytest.ini_options]
 minversion = "8.0"
 addopts = "-ra -q --tb=short"
