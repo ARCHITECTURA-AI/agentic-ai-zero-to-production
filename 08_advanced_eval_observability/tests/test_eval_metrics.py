@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-eval_framework = importlib.import_module("08_advanced_eval_observability.solution.eval_framework")
+eval_framework = importlib.import_module("08_advanced_eval_observability.starter.eval_pipeline")
 calculate_faithfulness = eval_framework.calculate_faithfulness
 calculate_relevance = eval_framework.calculate_relevance
 

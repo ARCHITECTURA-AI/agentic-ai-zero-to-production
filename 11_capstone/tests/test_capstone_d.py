@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-proxy_solution = importlib.import_module("11_capstone.solutions.proxy_solution")
+proxy_solution = importlib.import_module("11_capstone.starters.proxy_starter")
 run_gateway_proxy = proxy_solution.run_gateway_proxy
 
 def test_capstone_d_approved_flow():

@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-orchestrator = importlib.import_module("07_multi_agent.solution.orchestrator")
+orchestrator = importlib.import_module("07_multi_agent.starter.supervisor")
 route_ticket = orchestrator.route_ticket
 
 def test_supervisor_routes_to_billing():

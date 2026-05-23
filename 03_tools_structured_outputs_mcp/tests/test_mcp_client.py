@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-mcp_demo_solution = importlib.import_module("03_tools_structured_outputs_mcp.solution.mcp_demo_solution")
+mcp_demo_solution = importlib.import_module("03_tools_structured_outputs_mcp.starter.mcp_demo")
 run_mcp_client_demo = mcp_demo_solution.run_mcp_client_demo
 
 def test_mcp_demo_execution():

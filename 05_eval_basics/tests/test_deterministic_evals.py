@@ -5,10 +5,11 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-deterministic_evals = importlib.import_module("05_eval_basics.solution.deterministic_evals")
-grade_routing_decision = deterministic_evals.grade_routing_decision
-verify_ticket_id_present = deterministic_evals.verify_ticket_id_present
-calculate_keyword_score = deterministic_evals.calculate_keyword_score
+exact_match = importlib.import_module("05_eval_basics.starter.exact_match")
+grade_routing_decision = exact_match.grade_routing_decision
+regex_match = importlib.import_module("05_eval_basics.starter.regex_match")
+verify_ticket_id_present = regex_match.verify_ticket_id_present
+calculate_keyword_score = regex_match.calculate_keyword_score
 
 def test_grade_routing_decision():
     """Verify that routing checks normalize case and trim whitespace correctly."""

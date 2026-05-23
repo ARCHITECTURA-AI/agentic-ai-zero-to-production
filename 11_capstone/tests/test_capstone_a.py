@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-copilot_solution = importlib.import_module("11_capstone.solutions.copilot_solution")
+copilot_solution = importlib.import_module("11_capstone.starters.copilot_starter")
 run_copilot = copilot_solution.run_copilot
 
 def test_capstone_a_normal_flow():

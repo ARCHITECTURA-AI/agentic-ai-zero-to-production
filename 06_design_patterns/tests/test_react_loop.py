@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-react_framework = importlib.import_module("06_design_patterns.solution.react_framework")
+react_framework = importlib.import_module("06_design_patterns.starter.react_agent")
 run_react_loop = react_framework.run_react_loop
 
 def test_react_loop_refund():

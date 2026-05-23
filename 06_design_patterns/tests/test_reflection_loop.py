@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-reflection_framework = importlib.import_module("06_design_patterns.solution.reflection_framework")
+reflection_framework = importlib.import_module("06_design_patterns.starter.reflection_agent")
 run_reflection_loop = reflection_framework.run_reflection_loop
 
 def test_reflection_loop_refinement():

@@ -12,17 +12,17 @@ Welcome to the final stage of your **Agentic AI: From Zero to Production** journ
 ---
 
 ## 2. Files in This Folder
-* [README.md](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/12_post_course/README.md): This learning and resources index.
-* [reading_list.md](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/12_post_course/reading_list.md): A curated list of books, research papers, and industrial blogs.
-* [roadmap_template.md](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/12_post_course/roadmap_template.md): A structured template to map out your enterprise agent adoption.
-* [next_steps.md](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/12_post_course/next_steps.md): Clear instructions on what to build next and how to get certified.
+* [README.md](/12_post_course/README.md): This learning and resources index.
+* [reading_list.md](/12_post_course/reading_list.md): A curated list of books, research papers, and industrial blogs.
+* [roadmap_template.md](/12_post_course/roadmap_template.md): A structured template to map out your enterprise agent adoption.
+* [next_steps.md](/12_post_course/next_steps.md): Clear instructions on what to build next and how to get certified.
 
 ---
 
 ## 3. How to Use These Resources
-1. **Self-Assessment**: Review [next_steps.md](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/12_post_course/next_steps.md) to evaluate your current knowledge level.
-2. **Read the Literature**: Deep dive into the classic and contemporary publications cataloged in [reading_list.md](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/12_post_course/reading_list.md).
-3. **Plan Your Architecture**: Fill out [roadmap_template.md](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/12_post_course/roadmap_template.md) for your team's real-world business case.
+1. **Self-Assessment**: Review [next_steps.md](/12_post_course/next_steps.md) to evaluate your current knowledge level.
+2. **Read the Literature**: Deep dive into the classic and contemporary publications cataloged in [reading_list.md](/12_post_course/reading_list.md).
+3. **Plan Your Architecture**: Fill out [roadmap_template.md](/12_post_course/roadmap_template.md) for your team's real-world business case.
 
 ---
 

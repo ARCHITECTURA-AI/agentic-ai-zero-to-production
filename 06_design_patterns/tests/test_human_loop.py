@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-human_in_the_loop_hooks = importlib.import_module("06_design_patterns.solution.human_in_the_loop_hooks")
+human_in_the_loop_hooks = importlib.import_module("06_design_patterns.starter.human_in_the_loop")
 process_action_with_hitl = human_in_the_loop_hooks.process_action_with_hitl
 resume_action = human_in_the_loop_hooks.resume_action
 

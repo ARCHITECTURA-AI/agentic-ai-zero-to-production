@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-secure_sandbox = importlib.import_module("09_production_security_enterprise.solution.secure_sandbox")
+secure_sandbox = importlib.import_module("09_production_security_enterprise.starter.sandbox_runner")
 run_code_sandbox = secure_sandbox.run_code_sandbox
 
 def test_sandbox_benign_run():

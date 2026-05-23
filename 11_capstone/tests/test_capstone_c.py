@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-devops_solution = importlib.import_module("11_capstone.solutions.devops_solution")
+devops_solution = importlib.import_module("11_capstone.starters.devops_starter")
 DevOpsCoordinator = devops_solution.DevOpsCoordinator
 
 def test_capstone_c_success():

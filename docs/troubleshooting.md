@@ -38,7 +38,7 @@ This guide describes how to diagnose and resolve typical errors during workspace
 
 ### 2. Connection Timeout / Proxy Blocks
 - **Symptom**: `httpx.ConnectError` or similar network exceptions.
-- **Fix**: Add proxy exceptions or bypass corporate proxy check steps using mock environment variables (see [setup/install.md](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/setup/install.md)).
+- **Fix**: Add proxy exceptions or bypass corporate proxy check steps using mock environment variables (see [setup/install.md](/setup/install.md)).
 
 ---
 

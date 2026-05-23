@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-chroma_rag_pipeline = importlib.import_module("04_memory_rag_context.solution.chroma_rag_pipeline")
+chroma_rag_pipeline = importlib.import_module("04_memory_rag_context.starter.retrieve_context")
 setup_in_memory_kb = chroma_rag_pipeline.setup_in_memory_kb
 retrieve_relevant_chunks = chroma_rag_pipeline.retrieve_relevant_chunks
 

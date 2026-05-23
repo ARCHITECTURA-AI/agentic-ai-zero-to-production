@@ -7,7 +7,7 @@ Congratulations on completing the entire **Agentic AI: From Zero to Production**
 ## 1. Step-by-Step Practical Graduation Checklist
 To solidify your learnings, verify that you have completed the following concrete tasks:
 - [x] Run the global test suite using `pytest` at the root directory and ensure 100% green status.
-- [ ] Implement one of the four final projects listed in [Module 11 Capstone](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/11_capstone/README.md).
+- [ ] Implement one of the four final projects listed in [Module 11 Capstone](/11_capstone/README.md).
 - [ ] Share your repository fork or capstone solution with your team or online network.
 
 ---

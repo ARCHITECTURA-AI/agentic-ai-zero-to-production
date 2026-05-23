@@ -87,4 +87,4 @@ pytest
 ---
 
 ## 📄 License
-This repository is licensed under the MIT License. See [LICENSE](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/LICENSE) for details.
+This repository is licensed under the MIT License. See [LICENSE](/LICENSE) for details.

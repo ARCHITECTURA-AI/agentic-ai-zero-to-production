@@ -8,7 +8,7 @@ Welcome to the **Agentic AI: Zero to Production** hands-on training course! This
 
 Prior to Session 1, you must perform these steps:
 1. Confirm that you have **Python 3.10+** and **git** installed.
-2. Complete all steps in the [Installation Guide](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/setup/install.md).
+2. Complete all steps in the [Installation Guide](/setup/install.md).
 3. Ensure your local verification scripts run successfully:
    ```bash
    python setup/verify_environment.py
@@ -38,4 +38,4 @@ Every numbered module folder (`00` to `12`) contains the following components:
 - **Write tests first**: Module 05 teaches evaluation-driven design. Build your validation metrics before writing your prompt strings!
 - **Track token limits**: Watch your LLM costs and execution lengths in Module 02. Loops can consume credits rapidly!
 - **Harden input parsing**: In Module 03, focus on structured output schemas. Always enforce Pydantic types to prevent failures.
-- **Reference shared scripts**: Do not rewrite basic tokenizers or configurations. Utilize the [shared/](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/shared) folder utility functions.
+- **Reference shared scripts**: Do not rewrite basic tokenizers or configurations. Utilize the [shared/](/shared) folder utility functions.

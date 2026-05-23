@@ -6,7 +6,7 @@ import time
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-enterprise_connector = importlib.import_module("09_production_security_enterprise.solution.enterprise_connector")
+enterprise_connector = importlib.import_module("09_production_security_enterprise.starter.enterprise_client")
 EnterpriseClient = enterprise_connector.EnterpriseClient
 CircuitBreakerError = enterprise_connector.CircuitBreakerError
 

@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-chroma_rag_pipeline = importlib.import_module("04_memory_rag_context.solution.chroma_rag_pipeline")
+chroma_rag_pipeline = importlib.import_module("04_memory_rag_context.starter.index_documents")
 chunk_text = chroma_rag_pipeline.chunk_text
 
 def test_chunk_text_normal():

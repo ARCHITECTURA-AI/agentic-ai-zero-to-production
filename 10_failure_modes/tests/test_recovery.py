@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-recovery_playbook = importlib.import_module("10_failure_modes.solution.recovery_playbook")
+recovery_playbook = importlib.import_module("10_failure_modes.starter.incident_recovery")
 execute_with_fallback = recovery_playbook.execute_with_fallback
 global_ledger = recovery_playbook.global_ledger
 

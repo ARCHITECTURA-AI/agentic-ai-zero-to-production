@@ -5,10 +5,10 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-llm_as_judge = importlib.import_module("05_eval_basics.solution.llm_as_judge")
+llm_as_judge = importlib.import_module("05_eval_basics.starter.semantic_similarity")
 evaluate_response_with_judge = llm_as_judge.evaluate_response_with_judge
 
-ab_testing_framework = importlib.import_module("05_eval_basics.solution.ab_testing_framework")
+ab_testing_framework = importlib.import_module("05_eval_basics.starter.ab_testing_framework")
 run_ab_benchmark = ab_testing_framework.run_ab_benchmark
 
 def test_judge_grading_logic():

@@ -13,7 +13,7 @@ This document serves as a filled-in exemplar of how to structure your 30/60/90-d
   * **Production-Harden Your Capstone**: Review your selected Capstone option (A, B, C, or D) and refine error handling.
   * **Add Missing Tests and Guardrails**: Ensure boundary conditions, token limiters, and prompt security layers are covered in your unit tests.
   * **Deploy Locally**: Package your agent system inside a secure Docker container and run it in a local sandbox environment.
-  * **Write a Governance Readiness Checklist**: Draft an internal security review policy using [docs/governance_checklist.md](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/docs/governance_checklist.md) as a starting point.
+  * **Write a Governance Readiness Checklist**: Draft an internal security review policy using [docs/governance_checklist.md](/docs/governance_checklist.md) as a starting point.
 * **Learn**:
   * **ReAct Paper**: Read *ReAct: Synergizing Reasoning and Acting in Language Models* by Yao et al. (2022).
   * **Agentic AI Patterns**: Watch Andrew Ng's agentic design pattern lectures and video summaries.

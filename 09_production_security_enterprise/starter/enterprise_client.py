@@ -4,6 +4,10 @@ Resilient API connector wrapper with Circuit Breaker state tracking.
 """
 from typing import Dict, Any
 
+class CircuitBreakerError(Exception):
+    """Custom exception raised when requests are rejected because the circuit is open."""
+    pass
+
 class EnterpriseClient:
     def __init__(self):
         self.state = "CLOSED" # CLOSED, OPEN, HALF-OPEN

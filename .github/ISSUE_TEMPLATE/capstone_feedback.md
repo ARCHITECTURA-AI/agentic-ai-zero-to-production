@@ -18,7 +18,7 @@ Which project Option are you working on?
 Please detail your suggestions, issues faced during local setup, or ideas for improving the project instructions.
 
 **Checklist**
-- [ ] I have read the [docs/capstone_rubric.md](file:///c:/Users/Richa/OneDrive/Documents/Projects/agentic-ai-zero-to-production/docs/capstone_rubric.md).
+- [ ] I have read the [docs/capstone_rubric.md](/docs/capstone_rubric.md).
 - [ ] I have verified that all core capstone tests pass locally.
 
 ---

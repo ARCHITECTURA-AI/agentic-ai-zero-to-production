@@ -6,10 +6,10 @@ from pydantic import ValidationError
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-validated_handoff = importlib.import_module("03_tools_structured_outputs_mcp.solution.validated_handoff")
+validated_handoff = importlib.import_module("03_tools_structured_outputs_mcp.starter.validated_handoff")
 route_ticket_validated = validated_handoff.route_ticket_validated
 
-pydantic_models = importlib.import_module("03_tools_structured_outputs_mcp.solution.pydantic_models")
+pydantic_models = importlib.import_module("03_tools_structured_outputs_mcp.starter.schemas")
 TicketExtraction = pydantic_models.TicketExtraction
 
 def test_validated_handoff_success():

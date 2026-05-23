@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-tracing_provider = importlib.import_module("08_advanced_eval_observability.solution.tracing_provider")
+tracing_provider = importlib.import_module("08_advanced_eval_observability.starter.otel_tracer")
 Tracer = tracing_provider.Tracer
 
 def test_tracer_spans():

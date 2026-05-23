@@ -6,7 +6,7 @@ import os
 # Securely inject workspace root to sys.path to guarantee packages are discoverable
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-classify_systems_solution = importlib.import_module("01_foundations.solution.classify_systems_solution")
+classify_systems_solution = importlib.import_module("01_foundations.starter.classify_systems")
 solution_classify = classify_systems_solution.classify_task
 
 def test_classification_matrix():

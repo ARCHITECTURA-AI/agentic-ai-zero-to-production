@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-guardrails = importlib.import_module("10_failure_modes.solution.guardrails")
+guardrails = importlib.import_module("10_failure_modes.starter.defense")
 is_safe_input = guardrails.is_safe_input
 sanitize_output = guardrails.sanitize_output
 

@@ -5,11 +5,11 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-token_budget_manager = importlib.import_module("04_memory_rag_context.solution.token_budget_manager")
+token_budget_manager = importlib.import_module("04_memory_rag_context.starter.context_budget")
 count_tokens = token_budget_manager.count_tokens
 prune_conversation_history = token_budget_manager.prune_conversation_history
 
-context_health_checks = importlib.import_module("04_memory_rag_context.solution.context_health_checks")
+context_health_checks = importlib.import_module("04_memory_rag_context.starter.context_health_checks")
 check_context_health = context_health_checks.check_context_health
 
 def test_count_tokens():

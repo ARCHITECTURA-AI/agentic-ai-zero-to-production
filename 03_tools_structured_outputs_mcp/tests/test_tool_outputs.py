@@ -6,7 +6,7 @@ from pydantic import ValidationError
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-typed_tools = importlib.import_module("03_tools_structured_outputs_mcp.solution.typed_tools")
+typed_tools = importlib.import_module("03_tools_structured_outputs_mcp.starter.simple_tools")
 process_refund_tool = typed_tools.process_refund_tool
 
 def test_refund_tool_success():

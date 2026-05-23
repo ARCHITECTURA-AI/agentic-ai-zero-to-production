@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-analyst_solution = importlib.import_module("11_capstone.solutions.analyst_solution")
+analyst_solution = importlib.import_module("11_capstone.starters.analyst_starter")
 run_analyst = analyst_solution.run_analyst
 
 def test_capstone_b_success():
